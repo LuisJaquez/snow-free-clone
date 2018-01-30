@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/LuisJaquez/snow-free-clone#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
