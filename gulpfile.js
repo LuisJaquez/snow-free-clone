@@ -14,7 +14,7 @@ gulp.task("default", ["css", "javascript", "html"], function() {
     server: "./app"
   });
 
-  gulp.watch("app/js/*.js", ["javascript"]).on("change", browserSync.reload);
+  gulp.watch("js/*.js", ["javascript"]).on("change", browserSync.reload);
   gulp.watch("scss/**/*.scss", ["css"]);
   gulp.watch("app/*.html").on("change", browserSync.reload);
   gulp.watch("./*.html", ["html"]);
@@ -39,9 +39,9 @@ gulp.task("img", function() {
 //Minify Javascript.
 gulp.task("javascript", function() {
   gulp
-    .src("app/js/*.js")
+    .src("js/*.js")
     .pipe(uglify())
-    .pipe(gulp.dest("app/js/dist"));
+    .pipe(gulp.dest("app/js"));
 });
 
 //Compiled SASS to CSS.
