@@ -1,4 +1,8 @@
 //Variables
 @import "scss/helpers/_variables.scss";
-//Basic Styles
+//Base Styles
 @import "scss/base/_base.scss";
+//Helpers
+@import "scss/helpers/_helpers.scss";
+//Layouts
+@import "scss/layout/_navigation.scss";
