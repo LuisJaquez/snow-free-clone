@@ -10,4 +10,18 @@
 
 .navigation ul li {
   display: inline-block;
+  text-transform: uppercase;
+  padding-left: 60px;
+  font-weight: $regular-weight;
+
+  &:nth-child(4) {
+    padding-right: 30px;
+  }
+}
+
+.navigation__inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
 }
